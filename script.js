@@ -66,10 +66,12 @@ function read(button) {
   if (!open) {
     const para = button.previousElementSibling;
     para.classList.add("expanded");
+    button.textContent = "Hide";
     open = !open;
   } else {
     const para = button.previousElementSibling;
     para.classList.remove("expanded");
+    button.textContent = "Read More";
     open = !open;
   }
 }
