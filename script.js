@@ -58,8 +58,6 @@ async function fetchData() {
 
     result.appendChild(card);
   });
-
-  //   return;
 }
 
 let open = false;
